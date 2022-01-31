@@ -11,6 +11,18 @@ function handleclick() {
     menuResponsive.classList.toggle('hidden');
 }
 
+// Méthode pour faire disparaître le menu dropdown au 
+// clic sur n'importe quel lien du menu
+
+const allLinks = document.querySelectorAll('#item-link');
+
+allLinks.forEach(function(item){
+   
+    item.addEventListener('click', function(){
+        menuResponsive.classList.toggle('hidden');
+    })
+})
+
 
 // Vérificafion du bon chargement du JS
 document.addEventListener('DOMContentLoaded', init);
