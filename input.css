@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .bg-nav-magic {
+    background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(33,33,33)),repeating-linear-gradient(343deg, rgb(33,33,33) 0px, rgb(33,33,33) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(253deg, rgb(56,56,56) 0px, rgb(56,56,56) 5px,transparent 5px, transparent 6px),linear-gradient(298deg, rgb(33,33,33),rgb(33,33,33));;
+} */
+
+.font-family {
+    font-family: 'Pushster', cursive;
+}
+
+.font-family2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+.body {
+    background-color: #000;
+}
+

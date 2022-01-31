@@ -1,0 +1,23 @@
+{
+  "name": "site-tailwind-mom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss build input.css -o output.css",
+    "watch": "postcss build input.css -o output.css --watch",
+    "production": "cross-env NODE_ENV=production post.css input.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^9.0.2"
+  }
+}
