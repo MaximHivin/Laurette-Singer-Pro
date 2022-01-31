@@ -19,7 +19,7 @@ const allLinks = document.querySelectorAll('#item-link');
 allLinks.forEach(function(item){
    
     item.addEventListener('click', function(){
-        menuResponsive.classList.add('hidden');
+        menuResponsive.classList.toggle('hidden');
     })
 })
 
