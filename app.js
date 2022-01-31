@@ -11,23 +11,12 @@ function handleclick() {
     menuResponsive.classList.toggle('hidden');
 }
 
-// Apparition fenêtre modale pour numéro de téléphone
 
-const modal = document.getElementById('myModal')
-const btn = document.getElementById('btnModal');
+// Vérificafion du bon chargement du JS
+document.addEventListener('DOMContentLoaded', init);
 
-// Faire apparaître la fenêtre modale
-btn.onclick = function() {
-
-    modal.classList.remove('hidden');
-}
-
-// Faire disparaître la fenêtre modale
-window.onclick = function(event) {
-    if(event.target == modal) {
-        modal.classList.add('hidden');
-
-    }
+function init() {
+	console.log('La page est bien chargée!');
 }
 
 
